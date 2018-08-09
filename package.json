@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@mohayonao/web-audio-api-shim": "^0.3.0",
     "babel-core": "^6.13.2",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.1.1",
@@ -21,8 +22,8 @@
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-0": "^6.11.0",
     "classnames": "^2.2.5",
-    "css-loader": "^0.28.4",
     "color": "^2.0.0",
+    "css-loader": "^0.28.4",
     "eslint": "^3.19.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-config-standard-react": "^5.0.0",
@@ -39,7 +40,6 @@
     "style-loader": "^0.18.2",
     "svg-sprite-loader": "^3.0.10",
     "webpack": "^3.4.1",
-    "webpack-dev-server": "^2.6.1",
-    "@mohayonao/web-audio-api-shim": "^0.3.0"
+    "webpack-dev-server": "^2.6.1"
   }
 }

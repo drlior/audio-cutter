@@ -28,7 +28,7 @@ class Main extends Component {
 
   handleFileChange = async file => {
     if (!isAudio(file)) {
-      return alert('请选择合法的音频文件')
+      return alert('Please select a valid audio file')
     }
 
     this.setState({
@@ -154,16 +154,16 @@ class Main extends Component {
 
               <div className='controllers'>
                 <FilePicker onChange={this.handleFileChange}>
-                  <div className='ctrl-item' title='重新选择'>
+                  <div className='ctrl-item' title='Reselect'>
                     <Icon name='music' />
                   </div>
                 </FilePicker>
 
-                <a className='ctrl-item' title='播放/暂停' onClick={this.handlePlayPauseClick}>
+                <a className='ctrl-item' title='Play/Pause' onClick={this.handlePlayPauseClick}>
                   <Icon name={this.state.paused ? 'play' : 'pause'} />
                 </a>
 
-                <a className='ctrl-item' title='回放' onClick={this.handleReplayClick}>
+                <a className='ctrl-item' title='Playback' onClick={this.handleReplayClick}>
                   <Icon name='replay' />
                 </a>
 
@@ -203,7 +203,7 @@ class Main extends Component {
               <FilePicker onChange={this.handleFileChange}>
                 <div className='file-main'>
                   <Icon name='music' />
-                  选择音乐文件
+                  Select audio file
                 </div>
               </FilePicker>
             </div>
